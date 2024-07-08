@@ -6,21 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-  p::first-line{
-    color: blue;
-    background-color: orange;
-  }
-  ul{
-    margin: 100px;
-  }
-  li:nth-child(3){
-    color: rgb(179, 4, 4);
-    font-size: 100px;
-  }
+        .img1{
+            position: absolute;
+            z-index: -1;
+            height: 100vh;
+        }
+        .img2 {
+            position: absolute;
+            z-index: 0;
+        }
+        ul{
+        }
+        p{
+            z-index: 1;
+        }
     </style>
 </head>
 
 <body>
+    <img class="img1" src="./backgroundimage.jpg" alt="">
+    <img class="img2" src="./macan.avif" alt="">
+
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, repellendus? Mollitia fugiat perferendis itaque
         eius repellendus culpa, sit obcaecati provident nam, ducimus eveniet aut! Fuga eaque beatae quidem quibusdam animi?
         Ea, quos adipisci. Itaque laboriosam accusamus, quisquam, quaerat debitis beatae sed natus dicta totam unde sapiente
