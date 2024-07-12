@@ -5,21 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .box1{
-            height: 100px;
-            width: 100px;
-            background-color: yellow;
-            transition: all .6s;
-            transition-delay: .3s;
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: 100px;
+            flex-flow: row-reverse;
         }
-        .box1:hover{
-            width: 200px;
+        .box{
+            border: 2px black solid;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
         }
     </style>
 </head>
 <body>
-    <div class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, fugiat?
-    </div>
-    <div class="box2"></div>
+<div class="container">
+    <div class="box 1">1</div>
+    <div class="box 2">2</div>
+    <div class="box 3">3</div>
+
+</div>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
 </body>
 </html>
