@@ -4,34 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./RemixIcon_Font_2407251040/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        .container{
-            display: flex;
-            flex-direction: row;
-            justify-content: 100px;
-            flex-flow: row-reverse;
+        body:before{
+            content: url(./backgroundimage.jpg);
+            
+            background-size:auto;
+            position: absolute;
+            z-index: -1;
         }
-        .box{
-            border: 2px black solid;
-            width: 100px;
-            height: 100px;
-            background-color: aqua;
+        body{
+            z-index: 0;
+        }
+        body::after{
+            content: url(./rounded-black-square-shape.png);
         }
     </style>
 </head>
 <body>
-<div class="container">
-    <div class="box 1">1</div>
-    <div class="box 2">2</div>
-    <div class="box 3">3</div>
-
-</div>
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur veritatis praesentium optio nobis, nemo est! Ullam autem voluptatum iure qui, illo et, quasi nisi alias perferendis, voluptate at in.
 </body>
 </html>
